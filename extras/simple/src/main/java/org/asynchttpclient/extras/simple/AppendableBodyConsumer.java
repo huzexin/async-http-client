@@ -45,6 +45,19 @@ public class AppendableBodyConsumer implements BodyConsumer {
     public static void add2(){
         return;
     }
+
+    public static void add3(){
+        return;
+    }
+
+    public static void add4(){
+        return;
+    }
+
+
+    public static void add5(){
+        return;
+    }
     @Override
     public void consume(ByteBuffer byteBuffer) throws IOException {
         appendable
