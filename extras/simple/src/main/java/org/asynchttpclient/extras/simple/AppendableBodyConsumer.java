@@ -37,6 +37,11 @@ public class AppendableBodyConsumer implements BodyConsumer {
         this.charset = UTF_8;
     }
 
+    // test
+    public static void add(){
+        return;
+    }
+
     @Override
     public void consume(ByteBuffer byteBuffer) throws IOException {
         appendable
